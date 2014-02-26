@@ -18,6 +18,6 @@ def catw(name=None):
   return render_template('catwalk.html', name=name)
 
 @app.route('/madlibs')
-def calc(name=None):
+def mad(name=None):
   """ Return me template at application /me URL."""
   return render_template('madlibs.html', name=name)

@@ -30,6 +30,8 @@ function libIt() {
 
 var libButton = document.getElementById('lib-button');
 libButton.addEventListener('click', libIt);
+    localStorage.phrases = JSON.stringify(document.getElementById("story").innerHTML);
+    /* JSON.stringify(localStorage.phrases);*/
 	</script>
 
  </body>
